@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Sonata_eStore.Models
+namespace ShoppingCart.Models
 {
         public class AppUser : IdentityUser
         {
-                public string Occupation { get; set; }
+                public string username { get; set; }
         }
 }

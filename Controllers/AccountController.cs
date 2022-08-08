@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ShoppingCart.Models;
 using Sonata_eStore.Models;
 using Sonata_eStore.Models.ViewModels;
 
