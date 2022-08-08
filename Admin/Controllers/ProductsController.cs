@@ -50,9 +50,8 @@ namespace Sonata_eStore.Admin.Controllers
 
                         if (ModelState.IsValid)
                         {
-                                product.Slug = product.Name.ToLower().Replace(" ", "-");
 
-                                var slug = await _context.Products.FirstOrDefaultAsync(p => p.Slug == product.Slug);
+                                var slug = await _context.Products.FirstOrDefaultAsync(p => p.Name == product.Name);
                                 if (slug != null)
                                 {
                                         ModelState.AddModelError("", "The product already exists.");
@@ -101,9 +100,8 @@ namespace Sonata_eStore.Admin.Controllers
 
                         if (ModelState.IsValid)
                         {
-                                product.Slug = product.Name.ToLower().Replace(" ", "-");
 
-                                var slug = await _context.Products.FirstOrDefaultAsync(p => p.Slug == product.Slug);
+                                var slug = await _context.Products.FirstOrDefaultAsync(p => p.Name == product.Name);
                                 if (slug != null)
                                 {
                                         ModelState.AddModelError("", "The product already exists.");
