@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonata_eStore", "Sonata_eStore.csproj", "{C0A0D6E9-B276-4BB0-9EAF-9ED9FAEB43EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A0D6E9-B276-4BB0-9EAF-9ED9FAEB43EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A0D6E9-B276-4BB0-9EAF-9ED9FAEB43EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A0D6E9-B276-4BB0-9EAF-9ED9FAEB43EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A0D6E9-B276-4BB0-9EAF-9ED9FAEB43EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C83057D-7B68-4F81-9F79-714A4429CA3A}
+	EndGlobalSection
+EndGlobal
